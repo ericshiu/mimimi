@@ -1,0 +1,79 @@
+.input-group {
+	margin: 10px;
+}
+
+.imgpclogin {
+	height: 250px;
+	background: #fcc url('../img/eva.jpg') no-repeat center top;
+	background-size: cover;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+
+.btn-del input[type=button] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+
+.img-upload {
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+.pic-group {
+	border: 2px solid #5cb85c;
+	margin: 5px 5px 0px 5px;
+}
+
+.input-sum {
+	background-color: #ddd;
+}
+
+.input-radio {
+	background-color: #ddd;
+	border-right: 1px solid #ccc
+}
+
+
+.modal-header-danger {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5cb85c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}

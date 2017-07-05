@@ -1,0 +1,27 @@
+<style> 
+
+
+
+        #modal-dialog-login{
+          color:#555;
+          width: 1300px;
+          background-color: pink;
+        }   
+          
+
+
+.imgmemberlogin{
+        background:#fcc url('../img/imgpclogin.jpg')no-repeat center top;
+        background-size:cover;
+        height: 300px;
+        border-radius: 30%;
+        border-width:5px; 
+        border-style:solid;
+        border-color: #eee;
+        transition:width 2s,transform 2s,color 2s,border-radius 2s;
+      }
+
+
+
+
+</style>

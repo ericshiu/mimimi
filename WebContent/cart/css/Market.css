@@ -1,0 +1,93 @@
+/* 商品頁面CSS */
+
+/*照片變形時間4秒*/
+.product-img{transition:all .4s;}
+.product-img a{
+	display:inline-block;
+}
+
+/*區塊排版*/
+.product-content {
+  background: #ffffff none repeat scroll 0 0;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+}
+
+/*標題變色*/
+.product-content h4 a{
+	color:#555;
+}
+
+/*標題滑動變色*/
+.product-content h4 a:hover{color:#F4A137;}
+
+/*價格加粗*/
+.price.product-price {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 6px 0;
+}
+
+
+/*照片變形*/
+.single-product:hover .product-img{
+	transform:scale(1.1);
+}
+
+/*底線*/
+.single-product:hover .product-i{
+  box-shadow: 0 0 #eaeaea inset, 0 -2px #f4a137 inset, -1px 0 #eaeaea inset, 0 0 #eaeaea inset;
+}
+
+/*標題*/
+.product-i .pro-title h4 a {
+  font-size: 14px;
+}
+
+/*側邊LIST*/
+.column{border: 1px solid #ebebeb;
+padding: 0 15px;}
+h2.title-block{border-bottom: 1px solid #ebebeb;
+color: #000;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 20px;
+padding: 20px 0 10px;
+text-transform: uppercase;}
+.sidebar-widget {
+  margin-bottom: 20px;
+}
+
+.sidebar-title{border-bottom: 1px solid #ebebeb;
+color: #000;
+display: block;
+font-size: 13px;
+font-weight: 700;
+margin-bottom: 15px;
+padding-bottom: 10px;
+text-transform: uppercase;}
+ul.sidebar-menu {
+  overflow: hidden;
+}
+ul.sidebar-menu li {
+  margin-bottom: 10px;
+}
+ul.sidebar-menu li a {
+  color: #7d7d7d;
+  display: inline;
+  font-size: 14px;
+  font-weight: normal;
+}
+ul.sidebar-menu li a{}
+ul.sidebar-menu li a:hover{color:#F39C11}
+ul.sidebar-menu li a span {
+  float: right;
+}
+
+/*照片FIT*/
+.product-img.pt-20 img {
+  width: 100%;
+}

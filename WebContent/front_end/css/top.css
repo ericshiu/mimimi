@@ -1,0 +1,166 @@
+<style>
+/* eason-±MÄÝtop­¶­±¤§login */
+
+
+.login-modal-header-success {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5cb85c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.login-modal-header-warning {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #f0ad4e;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.login-modal-header-danger {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #d9534f;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.login-modal-header-info {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5bc0de;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.login-modal-header-primary {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #428bca;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.login-modal-header-pink {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: pink;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+
+
+.login-modal-title{
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+
+
+
+
+
+        #modal-dialog-login{
+          color:#555;
+          width: 1300px;
+          background-color: pink;
+        }   
+          
+        #modal-body-login {   
+          background-color: pink;
+          height: 650px;
+          color:#555;
+        }  
+        #p1{
+          font-size: 16px;
+          color:#555;
+        }
+
+
+.loginmember{
+        background:#fcc url('../../img/imgmemberlogin.jpg')no-repeat center top;
+        background-size:cover;
+        height: 300px;
+        border-radius: 30%;
+        border-width:5px; 
+        border-style:solid;
+        border-color: #eee;
+        transition:width 2s,transform 2s,color 2s,border-radius 2s;
+      }
+      .loginfirm{
+        background:#fcc url('../../img/imgfirmlogin.jpg')no-repeat center top;
+        background-size:cover;
+        height: 300px;
+        border-radius: 30%;
+        border-width:5px; 
+        border-style:solid;
+        border-color: #eee;
+        transition:width 2s,transform 2s,color 2s,border-radius 2s;
+      }
+      .loginpc{
+        background:#fcc url('../../img/imgpclogin.jpg')no-repeat center top;
+        background-size:cover;
+        height: 300px;
+        border-radius: 30%;
+        border-width:5px; 
+        border-style:solid;
+        border-color: #eee;
+        transition:width 2s,transform 2s,color 2s,
+        border-radius 2s;
+      }
+      
+      .loginmember:hover{
+        border-radius: 10%;
+        border-width:5px; 
+        border-style:solid;
+   
+      }
+
+      .loginfirm:hover{
+        border-radius: 10%;
+        border-width:5px; 
+        border-style:solid;
+   
+      }
+      .loginpc:hover{
+        
+        border-radius: 10%;
+        border-width:5px; 
+        border-style:solid;
+   
+      }
+    
+
+
+/* eason */
+
+
+</style>

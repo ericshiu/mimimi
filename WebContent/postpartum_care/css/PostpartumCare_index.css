@@ -1,0 +1,70 @@
+body{	
+	font-family :"微軟正黑體";
+}
+
+.carousel-inner > .item > img{
+  top: 0;
+  left: 0;  
+  margin:auto;
+  height:auto;
+}
+
+.carousel-caption {	
+	margin-top :0px;
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+.pcs {
+  display: flex;
+}
+
+.carousel-caption .btn {
+	    margin-top: 100px;
+	    margin-left:100px;
+}
+
+#search_pc{
+    border: 15px solid transparent;
+    padding: 5px;
+    border-image:url(../img/border-p-r.png) 10 stretch;
+}
+
+#PC_1 {
+    border: 15px solid transparent;
+    padding: 10px;
+    border-image:url(../img/border-d-g.png) 8 stretch;
+    height:auto;
+}
+
+#PC_2 {
+    border: 15px solid transparent;
+    padding: 10px;
+    border-image:url(../img/border-d-p.png) 8 stretch;
+    height:auto;
+}
+
+#PC_3 {
+    border: 15px solid transparent;
+    padding: 10px;
+    border-image:url(../img/border-d-b.png) 8 stretch;
+    height:auto;
+}
+
+.s-title{
+	margin-left: 5px;
+	margin-top:10px;
+	background-image:url(../img/stroke-2.png);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	background-size:30% ;
+}
+
+
+#pc_img1{
+    border: 10px solid transparent;
+    padding: 5px;
+    border-image:url(../img/border-d-g.png) 8 stretch;	
+}
+

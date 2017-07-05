@@ -1,0 +1,18 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%  int rowsPerPage2 = 100;  //每頁的筆數    
+    int rowNumber2=0;      //總筆數
+    int pageNumber2=0;     //總頁數      
+    int whichPage2=1;      //第幾頁
+    int pageIndexArray2[]=null;
+    int pageIndex2=0; 
+%>
+
+<%  
+    rowNumber2=listReports_ByPc_no_report0.size();
+
+%>
+
+
+
+<b>●未通過檢舉案件: 共<font color=#BA9D75><%=rowNumber2%></font>筆</b>
+

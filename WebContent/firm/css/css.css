@@ -1,0 +1,125 @@
+<style> 
+.theme-block{
+    font-family: 'Montserrat', sans-serif;
+    border: solid 1px #dfdfdf;
+    border-top: solid 2px #5f94bf;
+    padding: 30px 29px;
+    margin-bottom: 60px;
+}
+.shopping-cart-table {
+    border: solid 1px #dfdfdf;
+    width: 100%;
+    margin-bottom: 30px;
+    border-spacing: 2px;
+    margin:-1px;
+}
+.shopping-cart-table th, .shopping-cart-table td, .shopping-cart-table tbody td, .shopping-cart-table thead th{
+    border-right: solid 1px #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px 30px;
+    vertical-align: middle;
+}
+.cart-forms div{
+    padding: 10px 20px;
+    vertical-align: middle;
+}
+.aright{
+    text-align:right;
+}
+
+.product-cart-image{
+    width: 50%;
+}
+.product-cart-price{
+    width: 10%;
+}
+.product-cart-actions{
+    width: 20%;
+}
+.product-cart-total{
+    width: 10%;
+}
+.product-cart-remove{
+    width: 10%;
+}
+
+.cart-totals {
+    position: relative;
+    left: 50%;
+    padding: 10px 40px;
+    width: 50%;
+    
+}
+.divBlock{
+    
+    border: solid 1px #dfdfdf;
+    margin: -1px;
+}
+.cart-totals table tfoot td {
+    font-size: 18px;
+}
+.cart-totals table {
+
+    width: 100%;
+    color: #333;
+}
+.aright{
+    text-align: right;
+}
+.discount{
+    border: solid 1px #dfdfdf;
+    margin:-1px;
+    width: 100%;
+}
+
+.priceLable{
+    padding-top: 10px;
+}
+.price{
+    margin-left: 75%;
+    padding-top: 40px;
+}
+.block{
+    display: inline-block;  
+}
+.line{
+
+    border-bottom: solid 1px #dfdfdf;
+}
+button{
+    background-color: rgb(95, 148, 191);
+}
+.checkOut_btn{
+    font-size: 16px;
+    padding: 5px 60px;
+}
+.checkOut{
+    position: relative;
+    left: 60%;
+    margin-bottom: 20px;
+    margin-top: 40px
+}
+
+.prd-quantity {
+    border: 1px solid #cecece;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.prd-quantity input {
+    background-color: transparent;
+    border: medium none;
+    color: #777;
+    float: left;
+    font-size: 20px;
+    height: 40px;
+    outline: medium none;
+    width: 42px;
+}
+.prd-quantity input[type="text"] {
+    border-style: none solid;
+    border-width: medium 1px;
+    font-size: 18px;
+    text-align: center;
+    width: 66px;
+}
+</style>

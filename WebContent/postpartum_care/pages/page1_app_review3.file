@@ -1,0 +1,18 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%  int rowsPerPage3 = 100;  //每頁的筆數    
+    int rowNumber3=0;      //總筆數
+    int pageNumber3=0;     //總頁數      
+    int whichPage3=1;      //第幾頁
+    int pageIndexArray3[]=null;
+    int pageIndex3=0; 
+%>
+
+<%  
+    rowNumber3=listApps_ByPc_no_review3.size();
+ 
+%>
+
+
+
+<b>●預約已滿未通過申請案件: 共<font color=#BA9D75><%=rowNumber3%></font>筆</b>
+

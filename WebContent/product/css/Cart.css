@@ -1,0 +1,160 @@
+/* 購物車CSS */
+.header-bottom-right .left-cart .header-compire a:hover{
+	color:#fff;
+}
+.block-cart:hover .top-cart-title a{
+	color:#F4A137;
+}
+.shop-cart-area {
+  float: right;
+  position: relative;
+  width: 65%;
+}
+
+.top-cart-title {
+  border: 0 none;
+  box-shadow: none;
+  font-size: 12px;
+  height: 65px;
+  margin-top: 0;
+  padding-left: 70px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+
+.top-cart-title a .title-cart {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.count-item {
+	color: #bdbdbd;
+	display: inline-block;
+	font-size: 12px; 
+}
+.top-cart-title .price {
+    font-size: 12px;
+	color:#bdbdbd;
+}
+.block-cart {
+  display: inline-block;
+  position: relative;
+  width: 165px;
+}
+
+
+.top-cart-content {
+	border-top:3px solid #F4A137;
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 100%;
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    transition: all 0.3s ease 0s;
+    width: 290px;
+    visibility: hidden;
+    z-index: 99999999;
+}
+.block-cart:hover .top-cart-content,
+.cartbox-style-2:hover .top-cart-content {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+.mini-products-list .product-image {
+    float: left;
+    width: 30%;
+    display: block;
+}
+.mini-products-list {
+  padding: 0;
+}
+.mini-products-list li {
+    display: block;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.product-details {
+    float: left;
+    padding: 0 0px 0 15px;
+    width: 55%;
+}
+.pro-action {
+    float: left;
+    padding-top: 10px;
+    text-align: right;
+    width: 15%;
+}
+.cartproduct-name {
+    line-height: 20px !important;
+    margin: 5px 0;
+}
+.cartproduct-name a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+.cartproduct-name a:hover {
+    color: #F4A137;
+}
+strong.qty {
+    color: #9d9d9d;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+}
+.sig-price {
+    color: #F4A137;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.top-subtotal {
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    color: #333333;
+    font-size: 13px;
+    margin: 15px 0 0;
+    padding: 15px 10px;
+    text-transform: capitalize;
+}
+.top-subtotal .sig-price {
+    float: right;
+}
+.top-cart-content .cart-actions {
+    margin: 20px 0 0;
+    padding: 0;
+}
+.top-cart-content .cart-actions button {
+    display: block;
+    width: 100%;
+    padding: 0;
+	border:none;
+}
+.top-cart-content .cart-actions button span {
+    background: #F4A137 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    width: 100%;
+    transition: 0.3s;
+}
+.top-cart-content .cart-actions button:hover span {
+    background: #424242 none repeat scroll 0 0;
+}
+
